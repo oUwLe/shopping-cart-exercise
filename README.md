@@ -13,6 +13,8 @@ Se gi nedan på hur det ska fungera.
 ![alt text](shopping-cart-example.gif)
 
 ### Level 2
+**På denna nivå och level 3 behöver ni utöka och skriva egen JS-kod!**
+
 Nu när ni har fått er sida att fungera vill man ha lite ny funktionalitet. Bygg så det inte går att kunna lägga till samma bok igen och om en användare klickar på knappen **Add to cart** på en bok som redan är tillagd så ska denna se ett meddelande om att boken redan är tillagd i varukorgen.
 
 <details>
