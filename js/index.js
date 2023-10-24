@@ -9,11 +9,11 @@ cartProducts += '<li><span class="product-title">Titel: </span>' + shoppingCart[
 shoppingCart.push(product);
 
 //
-document.getElementById('productsInCart').innerHTML = shoppingCart.length;
-document.getElementById('cart').classList.toggle('hide');
-document.getElementById('products').innerHTML = cartProducts;
-products[i].addEventListener('click', function(event) {});
-document.getElementById('open-cart').addEventListener('click', function() {});
+document.querySelector('#productsInCart').innerHTML = shoppingCart.length;
+document.querySelector('#cart').classList.toggle('hide');
+document.querySelector('#products').innerHTML = cartProducts;
+products[i].addEventListener('click', (event) => {});
+document.querySelector('#open-cart').addEventListener('click', () => {});
 
 //Function declarations, add code inside {}
 function updateCart() {}
