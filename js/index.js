@@ -5,7 +5,7 @@ let cartProducts = '';
 
 //This code gets whatever is inside data-product in the HTML
 let product = event.target.parentNode.getAttribute('data-product');
-cartProducts += '<li><span class="product-title">Titel: </span>' + shoppingCart[i] + '</li>';
+cartProducts = cartProducts + '<li><span class="product-title">Titel: </span>' + shoppingCart[i] + '</li>';
 shoppingCart.push(product);
 
 //
