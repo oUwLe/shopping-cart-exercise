@@ -12,7 +12,10 @@ shoppingCart.push(product);
 document.querySelector('#productsInCart').innerHTML = shoppingCart.length;
 document.querySelector('#cart').classList.toggle('hide');
 document.querySelector('#products').innerHTML = cartProducts;
-products[i].addEventListener('click', (event) => {});
+products[i].addEventListener('click', (event) => {
+  console.log(event.target);
+  // event here is the HTML element that was clicked on
+});
 document.querySelector('#open-cart').addEventListener('click', () => {});
 
 //Function declarations, add code inside {}
